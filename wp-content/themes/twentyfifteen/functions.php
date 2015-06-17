@@ -358,10 +358,11 @@ require get_template_directory() . '/inc/customizer.php';
 
 function my_custom_head() {
 	echo '<script type="text/javascript" src="' . get_template_directory_uri() . '/lib/waypoints.min.js"></script>';
-    echo '<link type="text/css" rel="stylesheet" href="' . get_template_directory_uri() . '/css/animate.min.css"></link>';
-    echo '<link type="text/css" rel="stylesheet" href="' . get_template_directory_uri() . '/lib/Magnific-Popup/magnific-popup.css"></link>';
+    echo '<link type="text/css" rel="stylesheet" href="' . get_template_directory_uri() . '/css/animate.min.css">';
+    echo '<link type="text/css" rel="stylesheet" href="' . get_template_directory_uri() . '/lib/Magnific-Popup/magnific-popup.css">';
 	echo '<script type="text/javascript" src="' . get_template_directory_uri() . '/lib/Magnific-Popup/jquery.magnific-popup.js"></script>';
 	echo '<script type="text/javascript" src="' . get_template_directory_uri() . '/lib/animate/animate-css.js"></script>';
+    echo '<link type="text/css" rel="stylesheet" href="' . get_template_directory_uri() . '/lib/font-awesome/css/font-awesome.min.css">';
 
 }
 // Add hook for admin <head></head>

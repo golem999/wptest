@@ -59,6 +59,21 @@ Use it to make something cool, have fun, and share what you've learned with othe
  * work of Eric Meyer, Nicolas Gallagher, Jonathan Neal, and Blueprint.
  */
 
+
+.title-icon     {
+    margin-left: 30%;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#masthead {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+
+
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
 	border: 0;
 	font-family: inherit;
@@ -5991,4 +6006,6 @@ p > video {
 		margin: 7.6923% 0 0;
 		padding: 0;
 	}
+
+
 }
