@@ -51,3 +51,5 @@
 	</div><!-- .sidebar -->
 
 	<div id="content" class="site-content">
+	  <?php get_template_part('myMenu'); ?>
+

@@ -13,21 +13,18 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> 
 <?php 
 	if ( !is_single() ) :
-				echo ' anim ';
+		echo ' anim ';
 	endif;
  ?>
 >
-	<?php
-		// Post thumbnail.
-		twentyfifteen_post_thumbnail();
-	?>
+
 
 	<header class="entry-header">
 		<?php
 			if ( is_single() ) :
 				the_title( '<h1 class="entry-title">', '</h1>' );
 			else :
-				the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );
+				the_title( sprintf('<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );
 			endif;
 		?>
 	</header><!-- .entry-header -->
@@ -55,9 +52,5 @@
 		endif;
 	?>
 
-	<footer class="entry-footer">
-		<?php twentyfifteen_entry_meta(); ?>
-		<?php edit_post_link( __( 'Edit', 'twentyfifteen' ), '<span class="edit-link">', '</span>' ); ?>
-	</footer><!-- .entry-footer -->
 
 </article><!-- #post-## -->

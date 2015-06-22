@@ -363,7 +363,8 @@ function my_custom_head() {
 	echo '<script type="text/javascript" src="' . get_template_directory_uri() . '/lib/Magnific-Popup/jquery.magnific-popup.js"></script>';
 	echo '<script type="text/javascript" src="' . get_template_directory_uri() . '/lib/animate/animate-css.js"></script>';
     echo '<link type="text/css" rel="stylesheet" href="' . get_template_directory_uri() . '/lib/font-awesome/css/font-awesome.min.css">';
-
+    echo '<link type="text/css" rel="stylesheet" href="' . get_template_directory_uri() . '/lib/bootstrap/css/bootstrap.css">';
+    echo '<script type="text/javascript" src="' . get_template_directory_uri() . '/lib/bootstrap/js/bootstrap.js"></script>';
 }
 // Add hook for admin <head></head>
 add_action('admin_head', 'my_custom_head');

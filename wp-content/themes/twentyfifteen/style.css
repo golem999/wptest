@@ -59,9 +59,54 @@ Use it to make something cool, have fun, and share what you've learned with othe
  * work of Eric Meyer, Nicolas Gallagher, Jonathan Neal, and Blueprint.
  */
 
+ /* my starts */
+.m-menu{
+	width: 750px;
+	background: #fff;
+	height: 60px;
+	margin: auto;
+	margin-top: 25px;
+	border-radius: 30px;
+}
+
+.m-menu ul {
+	list-style: none;
+	margin-left: 20%;
+}
+
+.m-menu ul li {
+	float: left;
+	padding: 15px;
+	cursor:  pointer;
+	border-left: solid 1px #E5E5E5;
+
+}
+.m-menu ul li:hover {
+	background: #E5E5E5;
+}
+.m-menu ul li:last-child {
+	border-right: solid 1px #E5E5E5;;
+}
+
+
+/* slider */
+.slider-custom {
+    margin: auto;
+    width: 900px;
+}
+
+.layout-control-group{
+    padding-left: 100px;
+}
+.btn_submit{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+/* my end  */
 
 .title-icon     {
-    margin-left: 30%;
+    margin-left: 63px;
     font-size: 25px;
     cursor: pointer;
 }
@@ -70,9 +115,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
     margin-top: 30px;
     margin-bottom: 50px;
 }
-
-
-
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
 	border: 0;
@@ -4100,7 +4142,7 @@ p > video {
 		display: block;
 		float: left;
 		margin-left: 29.4118%;
-		width: 70.5882%;
+		width: 80.5882%;
 	}
 
 	body {
